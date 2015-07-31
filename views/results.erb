@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title> </title>
+     <link rel="stylesheet" type="style/css" href="results.css">
+ </head>
+ <body>
+<!--    <h2> <%= @page_first %> </h2> -->
+<!--      <h2> <%= @link_amazon %> </h2> -->
+   <h3> Below are samples of the first pages of various books from your chosen genre. Please click on your favorite to learn more about that book. </h3>
+   <a href = <%=@link_amazon[0]%> > <img src = <%= @page_first[0]%> ></a>
+   <br /> <br /> <br />
+   <a href = <%=@link_amazon[1]%> > <img src = <%= @page_first[1]%> ></a>
+   <br /> <br /> <br />
+   <a href = <%=@link_amazon[2]%> > <img src = <%= @page_first[2]%> ></a </body>
+</html>
