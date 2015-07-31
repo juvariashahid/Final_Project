@@ -49,9 +49,13 @@ class MyApp < Sinatra::Base
 
 
     genre1 = (params[:genre]).upcase
-    @page_first = return_book(all_books, genre1)
+     if genre1 == "FANTASY" || genre1 == "REALISTIC FICTION" || genre1 == "SCIENCE FICTION" || genre1 == "ROMANCE" || genre1 == "HISTORICAL FICTION"
+       @page_first = return_book(all_books, genre1)
     @link_amazon = return_amazon(all_books, genre1)
     erb :results
+     else
+  erb :index
+     end
   end
   
 #   get '/results' do
