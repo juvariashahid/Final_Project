@@ -48,7 +48,7 @@ h4{
  .genre-container{
      z-index:1;
   position: relative;
-   left: 400px;
+   left: 620px;
    top: -125px; 
     border: 5px solid white; 
     -webkit-box-shadow: 
@@ -164,7 +164,7 @@ p4 {
     z-index: 0; 
 } */
 
-.button {
+/* .button {
 /*    border-top: 1px solid #000000; */
 /*    background: #C0C0C0; */
 /*    background: -webkit-gradient(linear, left top, left bottom, from(#d4b9d4), to(#750f55)); */
@@ -173,7 +173,7 @@ p4 {
    background: -ms-linear-gradient(top, #d4b9d4, #750f55);
    background: -o-linear-gradient(top, #d4b9d4, #750f55); */
 /*    display: inline-block; */
-  width: 100px;
+/*   width: 100px;
   padding: 8px;
   color:#000000 ;
   border: 1px solid #fff;
@@ -183,24 +183,27 @@ p4 {
 
    font-size: 17px;
    text-decoration: none;
-   vertical-align: middle; */
-   }
+   vertical-align: middle;
+  
+ 
+   } */
+ 
 
-
-
+/* 
 .button:hover {
    border-top-color: #c7288a;
    background: #c7288a;
    color: #ccc;
-   }
-.button:active {
+   } */
+/* .button:active {
    border-top-color: #d6b4d6;
    background: #d6b4d6;
-   }
+   } */
 
-.submit-button {
+/* .submit-button {
   padding-left:1000px;
 top: -90px;
    z-index:1;
   position: relative;
 }
+ */
