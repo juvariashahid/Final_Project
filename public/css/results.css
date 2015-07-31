@@ -1,0 +1,61 @@
+
+.back{
+    position: absolute;
+    overflow: hidden;
+       content: ' ';
+    
+}
+
+.back:before{
+
+    content: ' ';
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url('http://s5.favim.com/orig/53/beautiful-book-cute-photography-Favim.com-496352.jpg');
+/*    background-image: url(' http://40.media.tumblr.com/tumblr_m42e8ozjzk1qe49wpo1_500.jpg') ;  */ */
+  background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;  
+}  
+
+h3 { color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 40px; 
+    font-weight: bold;
+    letter-spacing: -1px; 
+  
+    text-align: center;
+  z-index: 1;
+  position: relative}
+
+#page{
+   z-index: 1;
+  position: relative;
+top: 20px;
+  left: 50px;
+  
+  
+}
+
+#pa{
+    z-index: 1;
+  position: relative;
+  top: -570px;
+  left: 700px;
+}
+
+#pag{
+   z-index: 1;
+  position: relative;
+  bottom: 1150px;
+  left: 1350px;
+}
