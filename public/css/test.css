@@ -48,7 +48,7 @@ h4{
  .genre-container{
      z-index:1;
   position: relative;
-   left: 800px;
+   left: 400px;
    top: -125px; 
     border: 5px solid white; 
     -webkit-box-shadow: 
@@ -63,7 +63,7 @@ h4{
     padding: 10px;
     background: rgba(255,255,255,0.5);
     margin: 0 0 20px 0;
-   width: 135px;
+   width: 175px;
  }
  
 
@@ -173,7 +173,7 @@ p4 {
    background: -ms-linear-gradient(top, #d4b9d4, #750f55);
    background: -o-linear-gradient(top, #d4b9d4, #750f55); */
 /*    display: inline-block; */
-  width: 200px;
+  width: 100px;
   padding: 8px;
   color:#000000 ;
   border: 1px solid #fff;
